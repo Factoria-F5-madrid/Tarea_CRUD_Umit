@@ -23,5 +23,16 @@ Otros ejemplos comunes; incluyen tiendas online, donde se pueden gestionar produ
 🔹¿Qué son los patrones de arquitectura en desarrollo de software?;
 Los patrones de arquitectura en desarrollo de software son soluciones reutilizables para organizar y estructurar sistemas, facilitando el diseño eficiente y la toma de decisiones técnicas. Ayudan a mejorar la calidad, mantenibilidad y escalabilidad de las aplicaciones.
 
+🔶¿Qué es el patrón MVC (Modelo–Vista–Controlador)?; El patrón MVC es una forma de organizar aplicaciones dividiéndolas en tres partes: Modelo (gestiona los datos), Vista (muestra la información) y Controlador (coordina la interacción entre ambos). Esto facilita el desarrollo, mantenimiento y escalabilidad del software.
+
+🔶El patrón MVT, usado en Django, organiza las aplicaciones en tres partes: Modelo (gestiona los datos), Vista (contiene la lógica de negocio) y Template (define la presentación). Esta estructura separa claramente los datos, la lógica y la interfaz, facilitando el desarrollo y mantenimiento.
+
+🟧Diferencias entre MVC y MVT.En resumen: MVC utiliza un controlador explícito para coordinar la lógica y la presentación, mientras que MVT delega esa responsabilidad a la vista y separa la presentación en plantillas, haciendo el flujo más automatizado y el código más desacoplado, especialmente en frameworks como Django
+
+🔶¿Cuál de estos dos patrones se usa en Django?: En Django se utiliza el patrón MVT (Modelo–Vista–Template), que es una variante del patrón MVC adaptada a la filosofía y estructura de este framework
+
+
+
+
 
 
