@@ -1,4 +1,5 @@
 Tarea: Investigación y Desarrollo de un CRUD con Django
+
 1)🔹¿Qué es un CRUD;
 
 🔵Crear (Create): Añadir nuevos datos o registros al sistema, como registrar un nuevo usuario o agregar un producto a una tienda en línea.
