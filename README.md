@@ -32,7 +32,8 @@ Los patrones de arquitectura en desarrollo de software son soluciones reutilizab
 
 🔶¿Cuál de estos dos patrones se usa en Django?: En Django se utiliza el patrón MVT (Modelo–Vista–Template), que es una variante del patrón MVC adaptada a la filosofía y estructura de este framework
 
-3)🔹 ¿Cómo se estructura un proyecto en Django? 
+3)🔹 ¿Cómo se estructura un proyecto en Django?
+
 🔶Un proyecto en Django se estructura siguiendo el patrón MVT (Modelo–Vista–Template) y se organiza en varios archivos y directorios clave:
 -manage.py: Herramienta de línea de comandos para gestionar el proyecto (ejecutar el servidor, migraciones, etc.).
 
@@ -82,6 +83,7 @@ __init__.py: Indica que el directorio es un paquete de Python.
 *URLs: Definen las rutas que conectan las solicitudes del usuario con las vistas correspondientes, permitiendo que cada dirección web lleve a la función o clase adecuada dentro de la aplicación.
 
 🔹¿Para qué se usa el signo “%%” en los templates?
+
 🔶El signo {% %} en los templates de Django se usa para escribir etiquetas de plantilla (template tags), que permiten ejecutar lógica como bucles, condicionales o incluir otras plantillas dentro del HTML. Por ejemplo, {% for item in lista %} para iterar sobre una lista o {% if condicion %} para evaluar una condición.
 
 4)🔹¿Cuál es el flujo de datos entre un formulario HTML y la base de datos en Django?
