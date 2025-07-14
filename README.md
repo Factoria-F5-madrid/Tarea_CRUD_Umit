@@ -147,7 +147,8 @@ En resumen, el Admin de Django es una herramienta poderosa para la administraci�
 
 
 
-⚙️ Instalación
+⚙️⚙️⚙️⚙️ Instalación
+
 1.Clona el repositorio:
 ``` git clone https://github.com/tuusuario/tu-repo.git ``` 
 ``` cd tu-repo ``` 
@@ -163,6 +164,7 @@ En resumen, el Admin de Django es una herramienta poderosa para la administraci�
 ```python manage.py migrate```
 
 ✅Activar modo administrador en Django
+
 1.Crea el superusuario:
 ```python manage.py createsuperuser```
 
