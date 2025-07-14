@@ -147,3 +147,41 @@ En resumen, el Admin de Django es una herramienta poderosa para la administraci�
 
 
 
+⚙️ Instalación
+1.Clona el repositorio:
+``` git clone https://github.com/tuusuario/tu-repo.git ``` 
+``` cd tu-repo ``` 
+
+2.Crea un entorno virtual y actívalo:
+``` python -m venv venv ```
+``` Mac; source venv/bin/activate   # En Windows: venv\Scripts\activate ```
+
+3.Instala las dependencias:
+```pip install -r requirements.txt```
+
+4.Realiza migraciones:
+```python manage.py migrate```
+
+✅Activar modo administrador en Django
+1.Crea el superusuario:
+```python manage.py createsuperuser```
+
+2.Ejecuta el servidor:
+```python manage.py runserver```
+
+3.Accede al panel de administración:
+Ve a http://localhost:8000/admin e ingresa tus credenciales.
+
+4.La aplicación nos va a dejar crear libros en la pagina así;
+http://localhost:8000/libros/crear/
+
+
+
+
+
+
+
+
+
+
+
